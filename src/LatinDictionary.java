@@ -7,10 +7,10 @@ public class LatinDictionary {
     private DictionaryADT<String,String> dictionary;
     
     public LatinDictionary() {
-    	dictionary = new HashTable<String,String>(30000); //only have HashTable implementation when turning it in
+    	dictionary = new HashTable<String,String>(30000); 
     	//dictionary = new BinarySearchTree<String,String>();
     	//dictionary = new RedBlackTree<String,String>();
-    	//dictionary = new OrderedArrayDictionary<String,String>(); //what should maxSize be for array
+    	//dictionary = new OrderedArrayDictionary<String,String>(); 
         }
 
     public void loadDictionary(String fileName) {
